@@ -2,7 +2,7 @@ from pymongo import MongoClient
 
 # Replace <username>, <password>, and <cluster-name> with your own values
 client = MongoClient(
-    "mongodb+srv://ktu:9812@cluster0.up7nbkx.mongodb.net/?retryWrites=true&w=majority")
+    "mongodb+srv://EVOKINDIA:EVOKINDIA@evokindia.0cap9.mongodb.net/?retryWrites=true&w=majority&appName=EvokIndia")
 db = client.database
 collection = db.utube_collection
 
